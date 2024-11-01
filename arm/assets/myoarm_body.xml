@@ -760,6 +760,11 @@
                                                             <site name="LU_RB3-P5" pos="0.0049 -0.0116 0.0035"></site>
                                                             <site name="UI_UB3-P5" pos="-0.0054 -0.0077 0.006"></site>
                                                             <site name="Thirdmd_site_EDC3_side" pos="0.00142423 -0.028063 0.00714128"/>
+                                                            <!-- Weight for imitating pseudo haptics-->
+                                                            <body name="complex_object" pos="0 0 0">
+                                                                <geom name="part1" type="sphere" size=".01" pos="0 0 0" rgba="1 0 0 1"/>
+                                                                <inertial pos="0 0 0" mass=".0001"/>
+                                                            </body>
                                                             <body name="distph3" pos="0.001365 -0.029047 0.001954">
                                                                 <joint axis="1 0 0" name="md3_flexion" pos="0 0 0" range="0 1.5708"/>
                                                                 <geom class="myohand_coll" size="0.007 0.008" pos="0.0013 -0.009 -.002" euler="1.6 .05 0"/>
@@ -769,12 +774,6 @@
                                                                 <site name="EDC3-P9" pos="0.0008 -0.0058 0.0041"/>
                                                                 <geom class="myohand_coll" type="ellipsoid" size=".0055 .008 .002" pos="0.002 -.019 0.003" euler="0.2 0 0.0" rgba="1 1 1 .8"/>
                                                                 <site name="MFtip" size="0.005" pos=".002 -.019 -.001" rgba="0 0 0.8 1"/>
-                                                                
-                                                                <!-- Weight for imitating pseudo haptics-->
-                                                                <body name="complex_object" pos="0 0 0">
-                                                                    <geom name="part1" type="sphere" size=".05" pos="0 0 0" rgba="1 0 0 1"/>
-                                                                    <inertial pos="0 0 0" mass=".001"/>
-                                                                </body>
                                                             </body>
                                                         </body>
                                                     </body>
