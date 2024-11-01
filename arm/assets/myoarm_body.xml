@@ -771,8 +771,9 @@
                                                                 <site name="MFtip" size="0.005" pos=".002 -.019 -.001" rgba="0 0 0.8 1"/>
                                                                 
                                                                 <!-- Weight for imitating pseudo haptics-->
-                                                                <body name="complex_object" pos="0 0 1" mass="3.0">
+                                                                <body name="complex_object" pos="0 0 1">
                                                                     <geom name="part1" type="sphere" size="2" pos="0 0 0" rgba="1 0 0 1"/>
+                                                                    <inertial mass="1"/>
                                                                 </body>
                                                             </body>
                                                         </body>
