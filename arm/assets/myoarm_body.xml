@@ -772,8 +772,8 @@
                                                                 
                                                                 <!-- Weight for imitating pseudo haptics-->
                                                                 <body name="complex_object" pos="0 0 1">
-                                                                    <geom name="part1" type="sphere" size="2" pos="0 0 0" rgba="1 0 0 1"/>
-                                                                    <inertial pos="0 0 0" mass="1"/>
+                                                                    <geom name="part1" type="sphere" size=".02" pos="0 0 0" rgba="1 0 0 1"/>
+                                                                    <inertial pos="0 0 0" mass=".01"/>
                                                                 </body>
                                                             </body>
                                                         </body>
